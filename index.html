@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Crystalized Math</title>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        
+        <div class="card mx-auto text-center text-white bg-dark w-50 p-3 m-5">
+            <h1>Crystal Clicker!</h1>
+        </div>
+        <div class="card text-white bg-dark m-5 text-center">
+            <p>Click on the four crystals to match the total given to you.</p>
+            <p>The number given to you at the beginning of the game is random. Each of the four crystals will be assigned a random value.</p>
+            <p>You win the game by matching your total score to the random number generated. You lose the game if you exceed the random number value.</p>
+            <p>The value of each crystal is hidden until you click on it. Each time the game starts, the game will change the value of the crystal.</p>
+        </div>
+    
+        <div class="row mx-auto">
+            <div class="col card text-white bg-dark m-2 w-50">
+                <h3 class="text-center p-4" id="goal">Goal:</h3>
+            </div>
+            <div class="col card text-white bg-dark m-2 text-center">
+                <h3 id>Wins: 0</h3>
+                <h3 id>Losses: 0</h3>
+            </div>
+        </div>
+
+        <div class="container row mx-auto">
+            <img id="crystal1" src="assets/images/darkcrystal.jpg" width=200px, height=200px alt="Dark Crystal">
+            <img id="crystal2" src="assets/images/indianajonescrystalskull.jpg" width=400px, height=200px alt="Crystal Skull">
+            <img id="crystal3" src="assets/images/napoleondynamitecrystals.png" width=225px, height=200px alt="Napoleon Crystal">
+            <img id="crystal4" src="assets/images/billycrystal.jpg" width=250px, height=200px alt="Billy Crystal">
+        </div>
+
+        <div class="card mx-auto text-center text-white bg-dark w-50 p-3 m-5">
+            <h2 id="score">
+                Total Score: 0
+            </h2>
+        </div>
+            
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+</script>
+
+<script src="game.js">
+</script>
+
+</body>
+</html>
