@@ -39,13 +39,12 @@ function checkWin() {
         wins++;
         $("#wins").text("Wins: " + wins);
         resetGame();
-    }
-    else if (score > goal) {
+    }   else if (score > goal) {
         losses++;
         $("#losses").text("Losses: " + losses);
-        resetGame()
+        resetGame();
     }
-}
+}    
 
 //functions per crystal to reset its random number that occurs when user clicks crystal
 //console log the function to be sure it works
