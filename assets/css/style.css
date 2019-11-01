@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://gallery.yopriceville.com/var/albums/Backgrounds/Crystal_Background.jpg?m=1452009710);
+    background-repeat: repeat;
+    background-size: 500px;
+
+}
+
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: purple;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Pontano Sans', sans-serif;
+    color: navy;
+    line-height: 28px;
+    font-size: 25px;
+    margin: 10px;
+    
+    
+}

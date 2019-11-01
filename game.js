@@ -50,6 +50,8 @@ function checkWin() {
 //functions per crystal to reset its random number that occurs when user clicks crystal
 //console log the function to be sure it works
 //add the value of the crystal to the score each time user clicks
+//check for the win. If crystal = 0, put in random number (b/t 1-12). Console log it.
+//score plus/equal crystal, add score to page and add each click together
 //Crystal 1
 $("#crystal1").on("click", function() {
     if (crystal1 === 0) {
